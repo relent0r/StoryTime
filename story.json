@@ -8,11 +8,49 @@
         ],
         "options" : [
             {
-                "text" : "Lets take the main road route, its safer and lights brighter",
+                "text" : "1 : Lets take the main road route, its safer and lights brighter",
                 "arc" : "main-road-run"
             },
             {
-                "text" : "Lets take a shortcut through the bush behind the school field, it'll be much faster",
+                "text" : "2 : Lets take a shortcut through the bush behind the school field, it'll be much faster",
+                "arc" : "bush-way-run"
+            }
+        ]
+    },
+    "main-road-run" : {
+        "title" : "The well beaten path",
+        "story" : [
+            "Lets take the safe route, who knows what dangerous nasties may be lying wait in the bush. I'd hardly call it a bush anyway, more like a forest! It also has street lights which should keep any fears your imagination may produce down in the deep.",
+            "You start off at a brisk pace, no point in exhausting yourself and its not like..oh wait..WAS THAT A RAIN DROP! your hair! your clothes!! your bag!!! YOUR DIGNITY!!!!",
+            "Now we are running, you hike up your skirt and sprint like the Cheetah you imagine yourself to be. I wonder if Cheetahs also dislike the rain? They are cats, and cats don't like the rain.",
+            "It's REALLY coming down now, don't suppose you've got a boat in that bag of yours? I don't know about you but cardio is not my strong suit, could we take a break? A drink perhaps? You do have one in that bag of yours right?",
+            "Look over there, a bus stop! Best shelter your going to find between now and home, I vote we stop for a break and maybe this rain will calm down."
+        ],
+        "options" : [
+            {
+                "text" : "1 : Oh god yes I need a break, lets stop at the bus shelter",
+                "arc" : "main-road-bus-shelter"
+            },
+            {
+                "text" : "2 : We're half way home, why not just keep going?",
+                "arc" : "main-road-final-destination"
+            }
+        ]
+    },
+    "bush-way-run" : {
+        "title" : "Through the looking glass",
+        "story" : [
+            "What time is it? Have you been day dreaming again? The sun has dipped below the horizon and dark clouds are rolling in, you should have been home by now! Dinner will be ready and mum will be calling your phone",
+            "Speaking of phones, where IS your phone! I remember you had it at school, after lunch I put it in you bag and you went to class. The most boring class of the day. Mrs Dougone, if there was anyone that could stop mosquitos buzzing around you it'd be since they'd all fall asleep",
+            "Ah yes I remember now, how could I forget she confiscated it..gone until..you were meant to go and get it after school. Too late now you'll have to wait until tomorrow. Lets hurry and get home, these clouds are turning darker by the minute and I'm sure rain is not far off."
+        ],
+        "options" : [
+            {
+                "text" : "1 : Lets take the main road route, its safer and lights brighter",
+                "arc" : "main-road-run"
+            },
+            {
+                "text" : "2 : Lets take a shortcut through the bush behind the school field, it'll be much faster",
                 "arc" : "bush-way-run"
             }
         ]
