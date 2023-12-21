@@ -1,0 +1,20 @@
+{
+    "intro" : {
+        "title" : "A Lost Cat",
+        "story" : [
+            "What time is it? Have you been day dreaming again? The sun has dipped below the horizon and dark clouds are rolling in, you should have been home by now! Dinner will be ready and mum will be calling your phone",
+            "Speaking of phones, where IS your phone! I remember you had it at school, after lunch I put it in you bag and you went to class. The most boring class of the day. Mrs Dougone, if there was anyone that could stop mosquitos buzzing around you it'd be since they'd all fall asleep",
+            "Ah yes I remember now, how could I forget she confiscated it..gone until..you were meant to go and get it after school. Too late now you'll have to wait until tomorrow. Lets hurry and get home, these clouds are turning darker by the minute and I'm sure rain is not far off."
+        ],
+        "options" : [
+            {
+                "text" : "Lets take the main road route, its safer and lights brighter",
+                "arc" : "main-road-run"
+            },
+            {
+                "text" : "Lets take a shortcut through the bush behind the school field, it'll be much faster",
+                "arc" : "bush-way-run"
+            }
+        ]
+    }
+}
